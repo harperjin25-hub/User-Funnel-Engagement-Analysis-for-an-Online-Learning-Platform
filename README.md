@@ -7,9 +7,18 @@
 This project analyzes how users progress through the learning lifecycle—from onboarding to course engagement to certification. Using SQL and Tableau, the analysis uncovers engagement trends, conversion obstacles, and behavioural patterns that inform product and marketing decisions.
 
 **🛠 Tech Stack**
+### SQL
+- Built complex queries for lifecycle segmentation and funnel analysis  
+- Applied window functions (LAG/LEAD, ROW_NUMBER) to calculate user drop-off  
+- Used CTEs and temporary tables to structure multi-step data transformations  
+- Joined event-level and profile-level tables for a unified user view  
+- Calculated engagement metrics, conversion KPIs, retention curves, and cohort-based insights
 
-SQL (data cleaning, joins, segmentation)
+### Tableau
+- Multi-tab dashboard development (Overview, Engagement, Cohorts, Exams, Learning modules)
+- Cohort heatmaps for retention and lifecycle analysis
+- Custom visual design: KPI cards, donut charts, bar charts, trend lines, scatterplots
 
-Tableau (multi-tab dashboard, funnel views, heatmaps)
-
-Excel / CSV (data validation & exports)
+<p align="center">
+  <img src="images/overview.png" width="750">
+</p>
