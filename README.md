@@ -9,9 +9,9 @@ This project analyzes how users progress through the learning lifecycle—from o
 **🛠 Tech Stack**
 ### SQL
 - Built complex queries for lifecycle segmentation and funnel analysis  
-- Applied window functions (LAG/LEAD, ROW_NUMBER) to calculate user drop-off  
+- Multi-table joins (INNER, LEFT, FULL) to combine event-level and user-level data  
 - Used CTEs and temporary tables to structure multi-step data transformations  
-- Joined event-level and profile-level tables for a unified user view  
+- GROUP BY aggregations to create funnel metrics, engagement KPIs, and cohort summaries  
 - Calculated engagement metrics, conversion KPIs, retention curves, and cohort-based insights
 
 ### Tableau
